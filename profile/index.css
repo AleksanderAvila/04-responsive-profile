@@ -1,0 +1,93 @@
+head, body{
+  text-align: center;
+  background-image: url("https://images.tommycars.com/guntherwerks/porsche-993-rear-passenger-portrait.jpg?mw1920-mh1080");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selfie{
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  width: 150px;
+}
+
+.selfie:hover{
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 4000px;
+  transition: 10s;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding-left: 0 20px !important;
+  margin: auto 5px;
+  background: lightgray;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: gray;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  transition: 1s;
+}
+
+h1, h3, p{
+  font-weight: 200;
+  padding: 12px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.box{
+  border: 1px solid blue;
+  border-radius: 15px;
+  border-color: #2980b9;
+  margin: 40px auto;
+  padding: 15px;
+  width: 500px;
+  background-color:wheat;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+
+
+#motorcycle{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+}
+
+#coffee{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 40px;
+  background-color: transparent;
+}
